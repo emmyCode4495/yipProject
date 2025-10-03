@@ -25,9 +25,10 @@ const AppNavigator = () => {
         
       ) : (
         <>
+        <Stack.Screen name="welcome" component={Welcome} />
         <Stack.Screen name="login" component={Login} />
           <Stack.Screen name="register" component={Register} />
-          <Stack.Screen name="welcome" component={Welcome} />
+          
         </>
       )}
     </Stack.Navigator>
