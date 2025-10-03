@@ -1,4 +1,3 @@
-// contexts/AuthContext.js - Simple version
 import React, { createContext, useState, useContext, useEffect } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import axios from 'axios';

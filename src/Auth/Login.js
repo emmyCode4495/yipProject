@@ -1,5 +1,3 @@
-
-
 import { StyleSheet, Text, View, TextInput, TouchableOpacity, StatusBar, Pressable, Alert, ActivityIndicator } from 'react-native'
 import React, { useState } from 'react'
 import { Ionicons, AntDesign, FontAwesome } from '@expo/vector-icons'
